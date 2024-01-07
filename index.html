@@ -19,17 +19,26 @@
         <form action="">
             <div class="container">
                     <div class="form-acesso">
-                        <i class="fa-solid fa-user"></i><input type="text" placeholder="Nome" required>
+                        <i class="fa-solid fa-user"></i><input type="text" id="username" placeholder="Nome" required>
                     </div>
                     <div class="form-acesso">
-                        <i class="fa-solid fa-key"></i><input type="password" placeholder="Senha" required>
+                        <i class="fa-solid fa-key"></i><input type="password" id="password" placeholder="Senha" required>
                     </div>
-                <input type="submit">
+                    <button type="button" onclick="checkLogin()">Entrar</button>
             </div>
         </form>
+
     </main>
+    <div id="welcomeModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p>Seja Bem-vindo!</p>
+            <button onclick="redirectToWelcomePage()">OK</button>
+        </div>
+    </div>
     <footer>
         <p>Desenvolvido por Mauricio Rodrigues - 2024</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
