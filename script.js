@@ -20,5 +20,5 @@ function closeModal() {
 }
 
 function redirectToWelcomePage() {
-    window.location.href = "../paginas/pag_boas_vindas/index.html";
+    window.location.href = "paginas/pag_boas_vindas/index.html";
 }
