@@ -1,5 +1,4 @@
 
-
 @charset "UTF-8";
 
 
@@ -30,6 +29,17 @@ main {
     flex-direction: column;
 }
 
+.text-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 380px;
+}
+
+.text-main .fa-solid {
+    font-size: 1.5em;
+}
+
 .container {
     max-width: 600px;
     border-bottom: 1px solid #ccc;
@@ -58,7 +68,16 @@ main {
 input[type=submit] {
     width: 100%;
     display: block;
-    padding: 5px;
+    padding: 10px 5px;
+    margin-top: 10px;
+    background-color: rgb(190, 191, 191);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    opacity: .7;
 }
 
 footer {
