@@ -12,9 +12,6 @@ font-family: 'Poppins', sans-serif;
     --5-hex: #0D0D0D;
 }
 
-@charset "UTF-8";
-
-
 * {
     margin: 0;
     padding: 0;
@@ -41,50 +38,6 @@ header h1 {
     text-transform: uppercase;
     color: var(--3-hex);
 }
-
-
-main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 100px 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-
-}
-/* 
-.card-text {
-    display: flex;
-    align-items: center;
-    border: 1px solid #ccc;
-    margin: 20px;
-    padding: 20px 10px;
-    width: 500px;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px #ccc;
-    height: 40vh;
-}
-
-.container-text {
-    margin: 0 25px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.card-text h2 {
-    text-align: center;
-    border-bottom: 1px solid #555; 
-    width: 100%;
-    font-size: 1.5em;
-}
-
-.card-text .container-text {
-    width: 100%;
-    text-align: justify;
-} */
 
 footer {
     width: 100%;
